@@ -1,0 +1,23 @@
+{
+  "name": "assignment_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "apollo-server-core": "^3.12.0",
+    "graphql-yoga": "^4.0.4",
+    "nanoid": "^4.0.2",
+    "uuid": "^9.0.0"
+  }
+}
